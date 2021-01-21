@@ -1,10 +1,10 @@
 {
-	"name": "github-vscode-theme",
-	"displayName": "GitHub Theme",
-	"description": "GitHub theme for VS Code",
+	"name": "github-vscode-theme-v1",
+	"displayName": "GitHub Theme Old Version",
+	"description": "GitHub theme (old version - v1.1.5) for VS Code",
 	"version": "1.1.5",
 	"preview": true,
-	"publisher": "GitHub",
+	"publisher": "Fozg",
 	"license": "MIT",
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/primer/github-vscode-theme"
+		"url": "https://github.com/fozg/github-vscode-theme/tree/v1.1.5"
 	},
 	"bugs": {
 		"url": "https://github.com/primer/github-vscode-theme/issues"
@@ -52,10 +52,5 @@
 	"scripts": {
 		"start": "nodemon --watch src src/index.js",
 		"build": "node src/index.js"
-	},
-	"__metadata": {
-		"id": "7328a705-91fc-49e6-8293-da6f112e482d",
-		"publisherDisplayName": "GitHub",
-		"publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002"
 	}
 }
